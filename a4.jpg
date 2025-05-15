@@ -1,1 +1,6 @@
- <img src="images/a4.jpg" alt="">
+<div class="anime">
+      <a href="deathnote.html">
+         <img src="images/a4.jpg" alt="">
+      </a>
+      <a href="deathnote.html"><strong>Death Note</strong></a>
+   </div>
