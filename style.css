@@ -1,0 +1,98 @@
+body{
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Cal Sans", sans-serif;
+}
+.anime{
+    height: 300px;
+    width: 250px;
+   background: #e6e9f0; 
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 40px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 20px;
+    overflow: hidden;
+    border-radius: 14px;
+}
+form.searchbar {
+  display: flex;
+  border: 2px solid black;
+  background: white;
+  width: min(300px, 100%);
+  margin-inline: auto;
+  border-radius: 9px;
+  padding-right: 1em;
+  margin-top: 50px;
+}
+form.searchbar:focus-within {
+  outline: 2px solid #00aaff;
+  outline-offset: 2px;
+}
+form.searchbar::before {
+  content: "";
+  font-family: FontAwesome;
+  align-self: center;
+  padding-inline: 1em;
+  opacity: 0.5;
+}
+form.searchbar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding-block: 1em;
+}
+.anime1 img{
+  height:91%;
+  width: 91%;
+  object-fit: fill;
+  border-radius: 7px;
+}
+.anime img{
+  height: 91%;
+  width: 91%;
+  object-fit: fill;
+  border-radius: 7px;
+}
+.anime a{
+  text-decoration: none;
+  color: black;
+}
+.anime a strong{
+   font-family: "Cal Sans", sans-serif;
+   font-weight: 400;
+}
+.footer{
+  position: fixed ;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: rgb(245, 242, 242);
+  background-color: rgb(44, 42, 42);
+  height: 45px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "Cal Sans", sans-serif;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.gmail{
+  padding-top: 3px;
+   font-family: "Cal Sans", sans-serif;
+  font-weight: 200;
+}
+.footer a{
+  text-decoration:none;
+  color: white;
+}
+.anime-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+}
